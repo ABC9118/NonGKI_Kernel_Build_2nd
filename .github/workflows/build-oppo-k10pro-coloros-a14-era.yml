@@ -12,7 +12,7 @@ env:
   CUSTOM_CMDS : "CLANG_TRIPLE=aarch64-linux-gnu-"
   EXTRA_CMDS : "LD=ld.lld LLVM=1 LLVM_IAS=1"
 
-  KERNEL_SOURCE : "https://github.com/oppo-source/android_kernel_oppo_sm8350.git"
+  KERNEL_SOURCE : "https://github.com/ABC9118/android_kernel_oppo_sm8350.git"
   KERNEL_BRANCH : "oppo/sm8350_u_14.0_k10_pro_5g"
 
   CLANG_SOURCE : "https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.7/LLVM-19.1.7-Linux-X64.tar.xz"
@@ -25,7 +25,7 @@ env:
   GCC_32_BRANCH : "android12L-release"
 
   DEFCONFIG_SOURCE: ""
-  DEFCONFIG_NAME : "genericarmv8-64_defconfig"
+  DEFCONFIG_NAME : "era_defconfig"
   DEFCONFIG_ORIGIN_IMAGE: ""
   DEFCONFIG_FROM_BOOT: false
 
